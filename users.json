@@ -1,0 +1,20 @@
+{
+    "harlash": {
+        "username": "harlash",
+        "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "avatar": "static/avatars/default.png",
+        "admin_login": "admin"
+    },
+    "monkey": {
+        "username": "monkey",
+        "password_hash": "f98204ba6963009734f0398a80f8e44f9d3ef74ebb9c49e5d4f000bd1c102d29",
+        "avatar": "static/avatars/wallpaperbetter1.jpg",
+        "admin_login": "admin"
+    },
+    "kordebalet67": {
+        "username": "kordebalet67",
+        "password_hash": "403774aa7e1635aaf218dc899900238e691ffb21ec1701255840aa614a28fc39",
+        "avatar": "static/avatars/punish.png",
+        "admin_login": "admin"
+    }
+}
