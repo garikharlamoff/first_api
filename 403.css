@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    /* Кот на фоне */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('watermarked_img_11984094036267433034.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: #00ff66;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #030303;
+    box-sizing: border-box;
+}
+
+/* Сдвигаем элементы влево на 40px, а по вертикали опускаем ниже (было -50px, стало -10px) */
+body > h1, 
+body > .okak, 
+body > p, 
+body > a {
+    position: relative;
+    transform: translate(0px, 200px); 
+}
+
+h1 {
+    font-size: 5.5rem;
+    margin: 0 0 5px 0;
+    color: #ff3333;
+    text-shadow: 0 0 20px rgba(255, 51, 51, 0.8), 2px 2px 5px #000;
+    letter-spacing: 5px;
+}
+
+.okak {
+    font-size: 1.8rem;
+    color: #ff9900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 153, 0, 0.8), 2px 2px 4px #000;
+}
+
+p {
+    color: #00ff66;
+    font-size: 1.1rem;
+    text-shadow: 0 0 8px rgba(0, 255, 102, 0.8), 1px 1px 3px #000;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 6px 16px;
+    border-radius: 4px;
+    margin: 5px 0 15px 0;
+}
+
+a {
+    display: inline-block;
+    color: #00ff66;
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid #00ff66;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+}
+
+a:hover {
+    background: #00ff66;
+    color: #000;
+    box-shadow: 0 0 20px #00ff66;
+}
+
+.cat {
+    display: none;
+}
